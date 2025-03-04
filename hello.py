@@ -1,4 +1,4 @@
-input("Enter your name: ")
 
 
-print("hello Arslan") 
+name = input("what is your name? ")
+print("hello, Arslan")
