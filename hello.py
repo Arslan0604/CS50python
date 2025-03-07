@@ -14,10 +14,14 @@
 # print("In 10 years, you will be " + str(age) + " years old!")
 
 
-# # Ask user for their name
-name = input("What is your name? ")
+# # # Ask user for their name
+# name = input("What is your name? ").strip().title()
 
-name = name.strip()
-# Say hello to user
-print(f"Hello. {name}")
+# # Remove whitespace from str and capitalize first letter
+# # name = name.strip().title()
+# first, last = name.split()
+
+# # Say hello to user
+# print(f"Hello! {first}")
+
 
