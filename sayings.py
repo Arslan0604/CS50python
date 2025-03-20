@@ -8,3 +8,6 @@ def hello(name):
 
 def goodbye(name):
     print(f"goobye, {name}")
+    
+if __name__ == "__main__":
+    main()
