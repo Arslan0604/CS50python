@@ -1,4 +1,4 @@
-from test_calculator import square
+from calculator import square
 
 def main():
     test_square()
@@ -11,3 +11,4 @@ def test_square():
         
 if __name__ == "__main__":
     main()
+
