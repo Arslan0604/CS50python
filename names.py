@@ -17,11 +17,14 @@
 
 # other way of making a file: reload it not saving if 'r'
 
-with open("names.txt", "r") as file:
-    lines = file.readlines()
-    
-for line in lines:
-    print("hello,", line.rstrip())
+names = []
+
+with open("names.txt") as file:
+    for line in file:
+        names.append(line.rstrip())
+        
+for name in sorted(names, reverse=True):
+    print(f"hello, {name}")
     
     
 
