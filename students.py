@@ -17,7 +17,7 @@
 #     print(f"{student['name']} is from {student['home']}")
 
 
-# this is another way to solve it with Dictionery but it cannot work on my
+# this is another way to solve it with Dictionery 
 
 import csv
 students = []
