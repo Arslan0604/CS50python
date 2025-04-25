@@ -25,8 +25,8 @@ class Student:
       
 def main():
     student = get_student()
-    
-    print(student)
+    print("Expecto Patronum!")
+    print(student.charm())
     
 def get_student():
     name = input("Name: ")
