@@ -10,10 +10,22 @@ class Student:
         
     def __str__(self):
         return f"{self.name} from {self.house}"
+    
+    def charm(self):
+        match self.patronus:
+            case "Stag":
+                return "Your Patronus is a Stag!"
+            case "Otter":
+                return "Your Patronus is an Otter!"
+            case "Jack Russell Terrier":
+                return "Your Patronus is a Jack Russell Terrier!"
+            case _:
+                return "Your Patronus is a different animal!"
    
       
 def main():
     student = get_student()
+    
     print(student)
     
 def get_student():
