@@ -19,3 +19,7 @@ class Professor(Wizard):
     def __init__(self, name, subject):
         super().__init__(name)
         self.house = subject
+        
+wizard = Wizard("Albus")
+student = Student("Harry", "Gryffindor")
+professor = Professor("Severus", "Defense Against the Dark Arts")
