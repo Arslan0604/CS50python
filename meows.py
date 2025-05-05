@@ -8,6 +8,7 @@
 # cat = Cat()
 # cat.meow()
 
+# this is second version of this code about meows
 def meow(n: int):
     for _ in range(n):
         print("meow")
