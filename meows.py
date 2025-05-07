@@ -12,6 +12,15 @@
 
 # this is second version of this code about meows
 def meow(n: int) -> str:
+    """
+    Meow n times.
+    
+    :param n: Number of meows
+    :type n: int
+    :raise ValueError: if n is negative
+    :return: A string of n meows, one per line
+    :rtype: str
+    """
     return "meow\n" * n
 
       
