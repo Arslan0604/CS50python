@@ -1,6 +1,8 @@
 # first, _ = input("what's your name? ").split(" ")
 # print(f"Hello, {first}")
 
+
+# unpacking process below
 def total(galleons, sickles, knuts):
     return (galleons * 17 + sickles) * 29 + knuts
 
