@@ -1,0 +1,11 @@
+# first, _ = input("what's your name? ").split(" ")
+# print(f"Hello, {first}")
+
+def total(galleons, sickles, knuts):
+    return (galleons * 17 + sickles) * 29 + knuts
+
+
+coins = [100, 50, 25]
+
+
+print(total(100, 50, 25), "Knuts")
