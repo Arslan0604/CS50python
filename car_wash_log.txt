@@ -2,3 +2,4 @@
 2025-05-05 13:29:10.744680, Plate: 5443, Type: SUV, Service: Premium
 2025-05-05 13:35:28.828596, Plate: AO1735AG, Type: Sedan, Service: Premium
 2025-05-05 14:03:16.859007, Plate: AG3434AG , Type: запарожец, Service: губка-апарат
+2025-05-10 19:23:15.288464, Plate: AOarsan, Type: Sedan, Service: Basik 
