@@ -15,10 +15,12 @@
 # coins = {"galleons": 100, "sickles": 50, "knuts": 25}
 # print(total(**coins), "Knuts")
 
-def f(*args, **kwargs):
-    print("Named:", kwargs)
+# def f(*args, **kwargs):
+#     print("Named:", kwargs)
     
     
-f(galleons=100, sickles=50, knuts=25) 
+# f(galleons=100, sickles=50, knuts=25) 
 
 # that's is great
+
+print("hello", "world") 
