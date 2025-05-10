@@ -23,4 +23,7 @@
 
 # that's is great
 
-print("hello", "world") 
+def f(*args, **kwargs):
+    print("Positional:", args)
+    
+f(100, 50, 23)
