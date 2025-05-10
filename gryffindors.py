@@ -6,19 +6,19 @@ students = [
 ]
 
 
-# gryffindors = [
-#     student["name"] for student in students if student["house"] == "Gryffindor"
-# ]
+gryffindors = [
+    student["name"] for student in students if student["house"] == "Gryffindor"
+]
 
-# for gryffindor in sorted(gryffindors):
-#     print(gryffindor)
+for gryffindor in sorted(gryffindors):
+    print(gryffindor)
 
 # other way to do it
 
-def is_gryffindor(s):
-    return s["house"] == "Gryffindor"
+# def is_gryffindor(s):
+#     return s["house"] == "Gryffindor"
 
-gryffindors = filter(is_gryffindor, students)
+# gryffindors = filter(is_gryffindor, students)
 
-for gryffindor in sorted(gryffindors, key=lambda s: s["name"]):
-    print(gryffindor["name"])
+# for gryffindor in sorted(gryffindors, key=lambda s: s["name"]):
+#     print(gryffindor["name"])
